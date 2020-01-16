@@ -1,0 +1,259 @@
+<resources>
+    <string name="app_name">MaximSeg</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_logout">Terminar turno</string>
+    <string name="menu_change_user">Cambiar de usuario</string>
+    <string name="view_ronda">Ver ronda</string>
+    <string name="view_rondas">Ver rondas</string>
+    <string name="start_round">Iniciar Ronda</string>
+    <string name="scan_stop">Escanear código QR</string>
+    <string name="end_round">Finalizar Ronda</string>
+    <string name="observacion">Observación</string>
+
+    <string name="create_news">Notificar Novedad</string>
+
+
+    <string name="date_round">01-01-2019</string>
+    <string name="time_round">00:00</string>
+
+    <string name="date">01-01-2019</string>
+    <string name="time">00:00</string>
+    <string name="datetime">01-01-2019 00:00</string>
+
+    <string name="tipo">Tipo</string>
+
+    <string name="privado">Privado</string>
+    <string name="publico">Público</string>
+
+
+    <string name="lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</string>
+    <string name="title_reporte">REPORTE</string>
+    <string name="title_reporte_danos">REPORTE  DE DAÑOS</string>
+
+    <string name="title_paradas">Paradas</string>
+    <string name="title_reporte_parada">REPORTE DE TAREA</string>
+    <string name="title_activity_reporte_parada">REPORTE DE TAREA</string>
+    <string name="title_activity_parada_tarea">TAREAS</string>
+    <string name="title_activity_rondas">Rondas</string>
+
+    <string name="title_activity_novedad">NOTIFICAR NOVEDAD</string>
+    <string name="title_activity_novedad_detalles">DETALLES DE NOVEDAD</string>
+    <string name="title_activity_novedad_detalle">AGREGAR DETALLE</string>
+
+    <string name="btnReporte">Enviar</string>+20
+    <string name="btnAdjuntar">Adjuntar imagen</string>
+    <string name="btnAdjuntado">Imagen adjuntada</string>
+    <string name="btnAdd">Agregar</string>
+
+    <string name="CardPunto">Nombre de Punto</string>
+    <string name="card_inicio">HORA DE INICIO: 06:00</string>
+    <string name="card_salida">HORA DE SALIDA: 16:00</string>
+    <string name="alert_end_turno">¿Desea terminar su turno? Se marcará su turno como terminado.</string>
+    <string name="alert_end_round">¿Desea terminar su ronda? Se marcará la ronda como terminada.</string>
+    <string name="alert_start_round">¿Desea iniciar esta ronda?</string>
+    <string name="alert_change_privacy">¿Desea cambiar la privacidad de este elemento?</string>
+
+    <string name="alert_end_tarea">¿Completó la tarea? Se marcará la tarea como hecha.</string>
+    <string name="alert_description">¿Existió alguna novedad durante este proceso? Por favor, ingrésala.</string>
+    <string name="alert_login">Escriba su cédula.</string>
+
+    <string name="title_tareas">PROCEDIMIENTOS</string>
+    <string name="title_inventario">CAMBIO DE TURNO</string>
+    <string name="title_task">TAREAS</string>
+
+    <string name="codigo">Código</string>
+    <string name="nombre">Nombre</string>
+    <string name="marca">Marca</string>
+    <string name="btnInventario">Guardar</string>
+    <string name="btnSave">Guardar</string>
+    <string name="tarea">Tarea</string>
+    <string name="ronda">Ronda</string>
+    <string name="hora_inicio">09:00</string>
+    <string name="menu_home">Perfil</string>
+    <string name="menu_task">Tareas/Procedimientos</string>
+    <string name="menu_rounds">Rondas</string>
+    <string name="menu_obligations">Obligaciones</string>
+    <string name="menu_reports">Novedades Públicas</string>
+    <string name="menu_private_reports">Novedades Privadas</string>
+    <string name="menu_avisos">Avisos</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <string name="save">Guardar</string>
+    <string name="si">Sí</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancelar</string>
+    <string name="contact">Contactar</string>
+    <string name="back">Retornar</string>
+    <string name="text_obligations">Brindar el mejor y profesional servicio de seguridad integral, contamos con un capital humano en continua capacitación y con altos valores morales y éticos.
+
+Nuestra principal misión minimizar los riesgos al factor humano y la protección patrimonial. </string>
+
+    <string name="dialog_profile_description">Ingrese su número de cédula</string>
+    <string name="error_dialog">El número de cedula ingresado no coincide con el guardia elegido</string>
+    <string name="auth_button_login">Iniciar turno</string>
+    <string name="auth_button_foto">Iniciar turno</string>
+    <string name="auth_button_register">Registrarse</string>
+    <string name="auth_button_picture">Tomar foto</string>
+    <string name="error_round">Ya existe una ronda en proceso.  Debe finalizarla.</string>
+    <string name="no_round">Para poder escanear un codigo qr debe iniciar una ronda.</string>
+    <string name="error_back_round">Complete el registro de tareas.</string>
+    <string name="error_supervisor">Esta aplicación no puede ser usada por un supervisor.</string>
+
+    <string name="error_general">Ha ocurrido un error inesperado.</string>
+    <string name="error_location">Ha ocurrido un error al obtener su ubicación. Asegúrese de haber activado la
+        geolocalización.
+    </string>
+    <string name="error_field_required">Este campo es requerido</string>
+    <string name="error_fields_required">Debe llenar todos los campos.</string>
+    <string name="error_invalid_email">El correo no es válido</string>
+    <string name="error_internet">Necesita una conexión a internet para acceder a esta funcionalidad.</string>
+    <string name="error_internet2">No se dectectó conexión a internet. Inténtelo de nuevo.</string>
+    <string name="error_no_details">Esta tarea no cuenta con detalles.</string>
+
+    <string name="error_password_mismatch">Las claves no concuerdan.</string>
+    <string name="error_birthday_required">Debe ingresar una fecha de nacimiento.</string>
+    <string name="error_image_required">Debe subir una imagen.</string>
+    <string name="error_phone_required">Debe ingresar un número de teléfono.</string>
+    <string name="error_date_future">La fecha de nacimiento no es válida.</string>
+    <string name="error_permissions">No autorizó los permisos.</string>
+    <string name="error_heavy">El archivo seleccionado es demasiado pesado.</string>
+    <string name="error_no_products">Este puesto no cuenta con inventario asignado</string>
+
+    <string name="hint_email">Correo</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_password2">Repetir contraseña</string>
+    <string name="hint_cedula">Cédula</string>
+    <string name="hint_phone">Teléfono celular</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_nombre1">Primer nombre</string>
+    <string name="hint_nombre2">Segundo nombre (opcional)</string>
+    <string name="hint_apellido1">Primer apellido</string>
+    <string name="hint_apellido2">Segundo apellido</string>
+    <string name="hint_edad">Edad</string>
+    <string name="hint_nacimiento">Fecha de nacimiento</string>
+
+    <string name="unknown_location">La ubicación no pudo obtenerse.</string>
+    <string name="channel_name">ulocation</string>
+    <string name="channel_description">Maximseg\'s default notification channel</string>
+    <string name="persistent_notification">Maximseg está salvaguardando su ubicación.</string>
+    <string name="profile_label_tab1">Tareas</string>
+    <string name="profile_label_tab2">Procedimientos</string>
+    <plurals name="num_locations_reported">
+        <item quantity="zero">No location reported</item>
+        <item quantity="one">One location reported</item>
+        <item quantity="other">%d locations reported</item>
+    </plurals>
+    <string name="title_activity_dummy">DummyActivity</string>
+
+    <string name="home_message_logout">¿Está seguro de querer cerrar su sesión?</string>
+    <string name="title_activity_inventario">InventarioActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="title_activity_reporte">ReporteActivity</string>
+    <string name="title_activity_reporte_parada_tareas">ReporteParadaTareaActivity</string>
+    <string name="title_activity_parada_tareas">ParadaTareasActivity</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <item name="id" type="id" />
+    <item name="position" type="id" />
+
+    <item name="cliente" type="id" />
+</resources>

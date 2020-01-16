@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/ic_perfil"
+                android:title="@string/menu_home"/>
+        <item
+                android:id="@+id/nav_tasks"
+                android:icon="@drawable/ic_tasks"
+                android:title="@string/menu_task"/>
+        <item
+                android:id="@+id/nav_rounds"
+                android:icon="@drawable/ic_recorrido"
+                android:title="@string/menu_rounds"/>
+        <item
+            android:id="@+id/nav_reports"
+            android:icon="@drawable/ic_novedad_public"
+            android:title="@string/menu_reports" />
+        <item
+                android:id="@+id/nav_private_reports"
+                android:icon="@drawable/ic_novedad_private"
+                android:title="@string/menu_private_reports" />
+        <item
+                android:id="@+id/nav_avisos"
+                android:icon="@android:drawable/ic_popup_reminder"
+                android:title="@string/menu_avisos"/>
+        <item
+                android:id="@+id/nav_obligations"
+                android:icon="@drawable/ic_obligation"
+                android:title="@string/menu_obligations"/>
+
+    </group>
+</menu>

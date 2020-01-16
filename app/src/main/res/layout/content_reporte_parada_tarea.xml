@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".ReporteParadaTareaActivity"
+        tools:showIn="@layout/activity_reporte_parada_tareas">
+
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="10dp">
+
+                    <ImageButton
+                            android:id="@+id/btnAdjunto"
+                            android:layout_width="48dp"
+                            android:layout_height="39dp"
+                            android:background="@drawable/adjuntar"
+                            android:onClick="dispatchTakePictureIntent"
+                            android:padding="5dp" />
+                    <TextView
+                            android:id="@+id/txtadjunto"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:gravity="center_vertical"
+                            android:text="@string/btnAdjuntar"
+                            android:textSize="18sp" />
+                </LinearLayout>
+                <EditText
+                        android:id="@+id/txtReporteParadaTarea"
+                        android:inputType="textMultiLine"
+                        android:lines="8"
+                        android:minLines="6"
+                        android:gravity="top|left"
+                        android:maxLines="10"
+                        android:background="@drawable/multilineborder"
+                        android:padding="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:scrollbars="vertical"
+                        />
+                <Button
+                        android:id="@+id/btnReporteParadaTarea"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/colorPrimary"
+                        android:text="@string/btnReporte"
+                        android:textColor="@color/amdp_white_smoke" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
